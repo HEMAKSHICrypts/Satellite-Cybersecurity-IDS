@@ -16,10 +16,11 @@ with open('isolation_forest.pkl', 'rb') as f:
 
 # Secret keys
 SECRET_KEY = "your-super-secret-jwt-key"
-CIPHER_KEY = Fernet.generate_key()
+# FIXED KEY - Never changes (Save this once)
+CIPHER_KEY = b'3vAGLpQZXWboSOyNMcpXy65wVZkCz3cPF5iLui_aiGM='
 cipher = Fernet(CIPHER_KEY)
 
-print(f"🔑 Save this cipher key for ground_station.py: {CIPHER_KEY.decode()}")
+print(f"🔑 Using FIXED cipher key: {CIPHER_KEY.decode()}")
 
 # Blocked IPs for self-healing
 blocked_ips = set()

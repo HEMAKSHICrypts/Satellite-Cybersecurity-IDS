@@ -33,4 +33,4 @@ model.fit(df)
 with open('isolation_forest.pkl', 'wb') as f:
     pickle.dump(model, f)
 
-print("✅ AI Model Trained and Saved as 'isolation_forest.pkl'")
+print("✅ AI Model Trained and Saved as 'isolation_forest.pkl")

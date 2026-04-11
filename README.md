@@ -35,3 +35,20 @@ This project simulates a real-world satellite defense system using AI-powered an
 git clone https://github.com/YOUR_USERNAME/Satellite-Cybersecurity-IDS.git
 cd Satellite-Cybersecurity-IDS
 pip install -r requirements.txt
+
+## 📸 System Demonstration
+
+### 1. AI Model Training
+![AI Training](screenshots/training.png)
+
+### 2. Satellite Server Running
+![Satellite Server](screenshots/satellite.png)
+
+### 3. Ground Station Commands
+![Ground Station](screenshots/groundstation.png)
+
+### 4. Attacker Being Blocked
+![Attacker Blocked](screenshots/attacker.png)
+
+### 5. Live Dashboard
+![Dashboard](screenshots/dashboard.png)

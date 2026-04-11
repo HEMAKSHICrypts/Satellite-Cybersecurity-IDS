@@ -9,8 +9,7 @@ SECRET_KEY = "your-super-secret-jwt-key"
 # When you run satellite.py, it will print:
 # "🔑 Save this cipher key for ground_station.py: b'...'"
 # Copy that exact key here:
-CIPHER_KEY = b'REPLACE_THIS_WITH_THE_KEY_FROM_SATELLITE_PY'
-
+CIPHER_KEY = b'3vAGLpQZXWboSOyNMcpXy65wVZkCz3cPF5iLui_aiGM='
 cipher = Fernet(CIPHER_KEY)
 
 def send_command(command):
